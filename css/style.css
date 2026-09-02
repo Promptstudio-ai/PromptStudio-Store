@@ -44,7 +44,52 @@ h1,h2,h3,h4{
   letter-spacing:.12em;
   text-transform:uppercase;
   font-size:.8rem;
+  display:flex;align-items:center;gap:8px;
 }
+
+.info-btn{
+  width:22px;height:22px;border-radius:999px;flex:none;
+  background:var(--white);border:var(--border);
+  display:inline-flex;align-items:center;justify-content:center;
+  font-family:'Inter',serif;font-style:italic;font-weight:700;
+  text-transform:none;letter-spacing:0;font-size:.72rem;
+  color:var(--ink);cursor:pointer;padding:0;
+  transition:transform .2s ease;
+}
+.info-btn:hover{transform:scale(1.15)}
+
+/* ---------- About dialog ---------- */
+.about-dialog{
+  position:fixed;inset:0;margin:auto;
+  border:var(--border);
+  border-radius:0;
+  padding:32px;
+  max-width:460px;width:88vw;
+  max-height:82vh;overflow-y:auto;
+  background:var(--white);
+  color:var(--ink);
+  box-shadow:10px 10px 0 var(--ink);
+}
+.about-dialog::backdrop{background:rgba(20,21,26,.55)}
+.about-dialog h3{font-size:1.35rem;margin-bottom:4px;padding-right:28px}
+.about-dialog h4{
+  font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--muted);margin:18px 0 6px;
+}
+.about-dialog p{margin:0;font-size:.92rem;line-height:1.55}
+.dialog-footer{margin-top:22px;padding-top:16px;border-top:2px solid var(--ink)}
+.dialog-credit{font-size:.9rem;margin-bottom:10px}
+.dialog-tagline{font-style:italic;color:var(--muted);font-size:.84rem;margin-bottom:10px}
+.dialog-contact{font-size:.84rem}
+.dialog-contact a{text-decoration:underline}
+.dialog-close{
+  position:absolute;top:16px;right:16px;
+  width:30px;height:30px;border-radius:999px;
+  background:var(--white);border:var(--border);
+  font-size:1.1rem;line-height:1;cursor:pointer;color:var(--ink);
+  display:flex;align-items:center;justify-content:center;padding:0;
+}
+.dialog-close:hover{transform:scale(1.1)}
 
 /* ---------- Hero (home) ---------- */
 .hero{padding:64px 0 40px}

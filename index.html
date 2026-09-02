@@ -47,7 +47,7 @@
 <main>
   <section class="hero">
     <div class="container">
-      <p class="eyebrow">PromptStudio</p>
+      <p class="eyebrow">PromptStudio <button class="info-btn" type="button" data-dialog="dlg-about" aria-label="À propos de PromptStudio">i</button></p>
       <h1>Quatre apps.<br>Zéro superflu.</h1>
       <p>Des applications pensées pour être utiles et ludiques.<br>Clique sur une carte pour les essayer.</p>
     </div>
@@ -86,5 +86,20 @@
   </section>
 </main>
 
+<dialog id="dlg-about" class="about-dialog">
+  <button class="dialog-close" type="button" data-close aria-label="Fermer">×</button>
+  <h3>À propos de PromptStudio</h3>
+  <h4>La démarche</h4>
+  <p>PromptStudio est un studio d'expérimentation qui explore ce que l'intelligence artificielle peut construire quand on lui confie un produit du premier concept jusqu'au code. Petit Gambit, Viza, Kifaikoi et Arcana sont quatre prototypes nés de cette démarche : chacun répond à un besoin simple et concret, sans fonctionnalité superflue.</p>
+  <h4>Des prototypes 100% générés par IA</h4>
+  <p>De l'architecture au design en passant par le code, chaque application a été construite grâce à la collaboration entre intention humaine et intelligence artificielle. Une preuve vivante du futur du développement produit.</p>
+  <div class="dialog-footer">
+    <p class="dialog-credit"><strong>Créé par PromptStudio</strong></p>
+    <p class="dialog-tagline">Exploring the synergy between human prompts and machine intelligence.</p>
+    <p class="dialog-contact">Questions ou collaboration ? Écrivez à <a href="mailto:promptstudio.ai@gmail.com">promptstudio.ai@gmail.com</a></p>
+  </div>
+</dialog>
+
+<script src="/js/app.js"></script>
 </body>
 </html>
