@@ -40,21 +40,24 @@ h1,h2,h3,h4{
 
 .eyebrow-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 
-.eyebrow{
+.eyebrow-row .eyebrow{
   font-family:'Inter',system-ui,sans-serif;
   font-weight:700;
   letter-spacing:.12em;
   text-transform:uppercase;
   font-size:.8rem;
+  line-height:28px;
   margin:0;
 }
 
 .info-btn{
+  height:28px;
   border-radius:999px;flex:none;
   background:var(--white);border:var(--border);
   display:inline-flex;align-items:center;justify-content:center;
-  padding:5px 14px;margin-top:3px;
+  padding:0 14px;
   font-family:'Inter',sans-serif;font-weight:700;font-size:.78rem;
+  line-height:1;
   color:var(--ink);cursor:pointer;
   transition:transform .2s ease;
 }
