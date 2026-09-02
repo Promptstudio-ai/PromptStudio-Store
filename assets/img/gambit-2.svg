@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" role="img" aria-labelledby="t d">
+<title id="t">Petit Gambit — indice pédagogique</title>
+<desc id="d">Écran montrant une bulle d'indice qui explique le meilleur coup à jouer, avec une flèche sur l'échiquier.</desc>
+<rect width="320" height="640" rx="34" fill="#fdfcf9"/>
+<rect x="0" y="0" width="320" height="72" fill="#5be7db"/>
+<text x="24" y="44" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="20" fill="#14151a">&#9819; Coup conseillé</text>
+<rect x="24.0" y="96.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="58.0" y="96.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="92.0" y="96.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="126.0" y="96.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="160.0" y="96.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="194.0" y="96.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="228.0" y="96.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="262.0" y="96.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="24.0" y="130.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="58.0" y="130.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="92.0" y="130.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="126.0" y="130.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="160.0" y="130.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="194.0" y="130.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="228.0" y="130.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="262.0" y="130.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="24.0" y="164.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="58.0" y="164.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="92.0" y="164.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="126.0" y="164.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="160.0" y="164.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="194.0" y="164.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="228.0" y="164.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="262.0" y="164.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="24.0" y="198.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="58.0" y="198.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="92.0" y="198.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="126.0" y="198.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="160.0" y="198.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="194.0" y="198.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="228.0" y="198.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="262.0" y="198.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="24.0" y="232.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="58.0" y="232.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="92.0" y="232.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="126.0" y="232.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="160.0" y="232.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="194.0" y="232.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="228.0" y="232.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="262.0" y="232.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="24.0" y="266.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="58.0" y="266.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="92.0" y="266.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="126.0" y="266.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="160.0" y="266.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="194.0" y="266.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="228.0" y="266.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="262.0" y="266.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="24.0" y="300.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="58.0" y="300.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="92.0" y="300.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="126.0" y="300.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="160.0" y="300.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="194.0" y="300.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="228.0" y="300.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="262.0" y="300.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="24.0" y="334.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="58.0" y="334.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="92.0" y="334.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="126.0" y="334.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="160.0" y="334.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="194.0" y="334.0" width="34.0" height="34.0" fill="#eae6fb"/>
+<rect x="228.0" y="334.0" width="34.0" height="34.0" fill="#a488f2"/>
+<rect x="262.0" y="334.0" width="34.0" height="34.0" fill="#eae6fb"/>
+
+<circle cx="24" y="0" r="0"/>
+<rect x="24" y="299" width="34" height="34" fill="#f6c445" opacity="0.55"/>
+<rect x="126" y="163" width="34" height="34" fill="#f6c445" opacity="0.85"/>
+<path d="M58 316 C90 270 108 210 138 180" stroke="#14151a" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#14151a"/></marker></defs>
+
+<rect x="20" y="98" width="272" height="272" rx="4" fill="none" stroke="#14151a" stroke-width="3"/>
+<rect x="24" y="404" width="272" height="90" rx="18" fill="#fdfcf9" stroke="#14151a" stroke-width="2.5"/>
+<text x="40" y="432" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="13" fill="#14151a">Astuce du coach</text>
+<text x="40" y="454" font-family="Poppins, Arial, sans-serif" font-size="12" fill="#5b5c66">Avance ton pion central pour</text>
+<text x="40" y="470" font-family="Poppins, Arial, sans-serif" font-size="12" fill="#5b5c66">contrôler le centre de l'échiquier.</text>
+</svg>

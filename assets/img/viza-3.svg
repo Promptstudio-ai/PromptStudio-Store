@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" role="img" aria-labelledby="t d">
+<title id="t">Viza — liste des pays visités</title>
+<desc id="d">Liste de pays avec drapeaux et coche de validation, et un champ de recherche pour ajouter un nouveau pays.</desc>
+<rect width="320" height="640" rx="34" fill="#fdfcf9"/>
+<rect x="0" y="0" width="320" height="72" fill="#8fb2ea"/>
+<text x="24" y="44" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="20" fill="#14151a">Mes pays</text>
+<rect x="24" y="90" width="272" height="42" rx="21" fill="#fdfcf9" stroke="#14151a" stroke-width="2.5"/>
+<text x="40" y="117" font-family="Poppins, Arial, sans-serif" font-size="13" fill="#5b5c66">&#128269; Rechercher un pays&#8230;</text>
+
+<rect x="24" y="148" width="272" height="60" rx="16" fill="#eef3fc" stroke="#14151a" stroke-width="2"/>
+<text x="40" y="186" font-size="22">&#127467;&#127479;</text>
+<text x="76" y="182" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#14151a">France</text>
+<rect x="212" y="164" width="70" height="28" rx="14" fill="#5be7db" stroke="#14151a" stroke-width="2"/>
+<text x="247" y="183" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="600" font-size="10" fill="#14151a">Visit&#233;</text>
+
+<rect x="24" y="220" width="272" height="60" rx="16" fill="#eef3fc" stroke="#14151a" stroke-width="2"/>
+<text x="40" y="258" font-size="22">&#127471;&#127477;</text>
+<text x="76" y="254" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#14151a">Japon</text>
+<rect x="212" y="236" width="70" height="28" rx="14" fill="#5be7db" stroke="#14151a" stroke-width="2"/>
+<text x="247" y="255" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="600" font-size="10" fill="#14151a">Visit&#233;</text>
+
+<rect x="24" y="292" width="272" height="60" rx="16" fill="#eef3fc" stroke="#14151a" stroke-width="2"/>
+<text x="40" y="330" font-size="22">&#127462;&#127482;</text>
+<text x="76" y="326" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#14151a">Argentine</text>
+<rect x="212" y="308" width="70" height="28" rx="14" fill="#5be7db" stroke="#14151a" stroke-width="2"/>
+<text x="247" y="327" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="600" font-size="10" fill="#14151a">Visit&#233;</text>
+
+<rect x="24" y="364" width="272" height="60" rx="16" fill="#eef3fc" stroke="#14151a" stroke-width="2"/>
+<text x="40" y="402" font-size="22">&#127472;&#127462;</text>
+<text x="76" y="398" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#14151a">Kenya</text>
+<rect x="212" y="380" width="70" height="28" rx="14" fill="#f6c445" stroke="#14151a" stroke-width="2"/>
+<text x="247" y="399" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="600" font-size="10" fill="#14151a">Envie d'y aller</text>
+
+<rect x="24" y="436" width="272" height="60" rx="16" fill="#eef3fc" stroke="#14151a" stroke-width="2"/>
+<text x="40" y="474" font-size="22">&#127475;&#127462;</text>
+<text x="76" y="470" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#14151a">Vietnam</text>
+<rect x="212" y="452" width="70" height="28" rx="14" fill="#5be7db" stroke="#14151a" stroke-width="2"/>
+<text x="247" y="471" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="600" font-size="10" fill="#14151a">Visit&#233;</text>
+</svg>
