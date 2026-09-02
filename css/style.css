@@ -167,8 +167,6 @@ h1,h2,h3,h4{
 .card-blue h3,.card-blue p,.card-yellow h3,.card-yellow p{max-width:56%}
 .card-tall .card-art{position:static;width:220px;margin:4px auto 22px;transform:rotate(-3deg)}
 .card-tall:hover .card-art{transform:rotate(-1deg) scale(1.04)}
-.card-tall{align-items:center;text-align:center}
-.card-tall p{max-width:26ch;margin-inline:auto}
 
 @media (max-width: 900px){
   .bento{
