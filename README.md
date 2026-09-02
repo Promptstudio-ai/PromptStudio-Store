@@ -1,31 +1,30 @@
-# PromptStudio — site vitrine
+# PromptStudio — page vitrine
 
-Site statique (HTML/CSS/JS, sans framework ni build) présentant les quatre applications PromptStudio :
+Page d'accueil statique unique (HTML/CSS, sans framework ni build) présentant
+les quatre applications web PromptStudio. Chaque carte ouvre directement
+l'application correspondante dans un nouvel onglet :
 
-- **Petit Gambit** — jeu d'échecs pédagogique en famille
-- **Viza** — carte du monde à gratter numérique
-- **Kifaikoi** — tâches ménagères des enfants
-- **Arcana** — apprentissage du tarot Rider-Waite-Smith
+- **Petit Gambit** — https://petitgambit.prompt-studio.app/
+- **Viza** — https://viza.prompt-studio.app/
+- **Kifaikoi** — https://kifaikoi.prompt-studio.app/
+- **Arcana** — https://arcana.prompt-studio.app/
 
 ## Structure
 
 ```
-index.html                  accueil (grille des 4 apps)
-apps/<slug>/index.html      page de présentation de chaque app
-css/style.css               design system
-assets/img/*.webp           captures d'écran et icônes de chaque app
-assets/icons/*.svg          icônes Iconoir (MIT — https://iconoir.com/) inlinées dans les pages
-robots.txt, sitemap.xml     SEO
+index.html          page unique (hero + grille des 4 apps)
+css/style.css        design system
+assets/img/*.webp    captures d'écran et icônes de chaque app
+robots.txt, sitemap.xml
 ```
 
 ## SEO / GEO
 
-Chaque page inclut : title/description uniques, Open Graph + Twitter Card,
-URL canonique, et des données structurées JSON-LD (`SoftwareApplication`,
-`FAQPage`, `BreadcrumbList` sur les fiches app, `Organization` sur l'accueil)
-pour faciliter la compréhension du contenu par les moteurs de recherche et
-les moteurs génératifs (GEO). Les FAQ de chaque page répondent aux questions
-les plus probables des utilisateurs pour être citées directement par les IA.
+La page inclut : title/description, Open Graph + Twitter Card, URL
+canonique, et des données structurées JSON-LD `Organization` listant les
+quatre apps comme `Offer`/`SoftwareApplication` avec leur URL réelle, pour
+faciliter la compréhension du contenu par les moteurs de recherche et les
+moteurs génératifs (GEO).
 
 ## Développement local
 
@@ -38,7 +37,7 @@ python3 -m http.server 8000
 
 ## Déploiement
 
-Le site est 100% statique : il peut être déployé tel quel sur Vercel,
+La page est 100% statique : elle peut être déployée telle quelle sur Vercel,
 Netlify, GitHub Pages ou tout hébergeur de fichiers statiques. Pensez à
 mettre à jour le domaine `https://promptstudio.app/` dans les balises
 `canonical`, Open Graph et dans `sitemap.xml` si le domaine final diffère.
