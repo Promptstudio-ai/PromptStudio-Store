@@ -127,16 +127,20 @@ h1,h2,h3,h4{
 .card p{margin:0;color:var(--ink);opacity:.85;max-width:34ch}
 
 .card-art{
-  position:absolute;top:24px;right:24px;width:46%;
-  filter:drop-shadow(0 14px 20px rgba(0,0,0,.18));
+  position:absolute;top:22px;right:24px;
+  width:180px;height:auto;
+  border:2px solid var(--ink);
+  border-radius:16px;
+  box-shadow:0 16px 26px rgba(20,21,26,.2);
+  background:var(--white);
   transform:rotate(4deg);
   transition:transform .28s cubic-bezier(.2,.8,.2,1);
 }
 .card:hover .card-art{transform:rotate(1deg) scale(1.04)}
-.card-featured .card-art{width:44%;top:18px;right:18px}
-.card-blue .card-art,.card-yellow .card-art{width:40%;top:18px;right:18px}
-.card-blue h3,.card-blue p,.card-yellow h3,.card-yellow p{max-width:54%}
-.card-tall .card-art{position:static;width:88%;margin:0 auto 20px;transform:rotate(-3deg)}
+.card-featured .card-art{width:200px;top:24px;right:30px}
+.card-blue .card-art,.card-yellow .card-art{width:130px;top:20px;right:18px}
+.card-blue h3,.card-blue p,.card-yellow h3,.card-yellow p{max-width:56%}
+.card-tall .card-art{position:static;width:220px;margin:4px auto 22px;transform:rotate(-3deg)}
 .card-tall:hover .card-art{transform:rotate(-1deg) scale(1.04)}
 .card-tall{align-items:center;text-align:center}
 .card-tall p{max-width:26ch;margin-inline:auto}
@@ -150,7 +154,9 @@ h1,h2,h3,h4{
       "blue"
       "yellow";
   }
-  .card-art{position:static;width:70%;margin:16px auto 0;transform:rotate(-2deg)}
+  .card-art,.card-featured .card-art,.card-blue .card-art,.card-yellow .card-art{
+    position:static;width:180px;margin:16px auto 0;transform:rotate(-2deg);
+  }
 }
 
 /* ---------- App page hero ---------- */
