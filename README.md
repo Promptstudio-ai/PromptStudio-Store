@@ -10,11 +10,11 @@ Site statique (HTML/CSS/JS, sans framework ni build) présentant les quatre appl
 ## Structure
 
 ```
-index.html                 accueil (grille des 4 apps)
+index.html                  accueil (grille des 4 apps)
 apps/<slug>/index.html      page de présentation de chaque app
-css/style.css               design system (neubrutalisme coloré)
-js/main.js                  menu mobile
-assets/img/*.svg            maquettes d'écrans ("screenshots") de chaque app
+css/style.css               design system
+assets/img/*.webp           captures d'écran et icônes de chaque app
+assets/icons/*.svg          icônes Iconoir (MIT — https://iconoir.com/) inlinées dans les pages
 robots.txt, sitemap.xml     SEO
 ```
 
