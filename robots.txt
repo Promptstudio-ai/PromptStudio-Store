@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://promptstudio.app/sitemap.xml
+Sitemap: https://www.prompt-studio.app/sitemap.xml

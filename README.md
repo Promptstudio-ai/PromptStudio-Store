@@ -1,7 +1,7 @@
 # PromptStudio — page vitrine
 
 Page d'accueil statique unique (HTML/CSS, sans framework ni build) présentant
-les quatre applications web PromptStudio. Chaque carte ouvre directement
+les applications web PromptStudio. Chaque carte ouvre directement
 l'application correspondante dans un nouvel onglet :
 
 - **Petit Gambit** — https://petitgambit.prompt-studio.app/
@@ -12,7 +12,7 @@ l'application correspondante dans un nouvel onglet :
 ## Structure
 
 ```
-index.html          page unique (hero + grille des 4 apps)
+index.html          page unique (hero + grille des apps)
 css/style.css        design system
 assets/img/*.webp    captures d'écran et icônes de chaque app
 robots.txt, sitemap.xml
@@ -22,7 +22,7 @@ robots.txt, sitemap.xml
 
 La page inclut : title/description, Open Graph + Twitter Card, URL
 canonique, et des données structurées JSON-LD `Organization` listant les
-quatre apps comme `Offer`/`SoftwareApplication` avec leur URL réelle, pour
+apps comme `Offer`/`SoftwareApplication` avec leur URL réelle, pour
 faciliter la compréhension du contenu par les moteurs de recherche et les
 moteurs génératifs (GEO).
 
@@ -38,6 +38,6 @@ python3 -m http.server 8000
 ## Déploiement
 
 La page est 100% statique : elle peut être déployée telle quelle sur Vercel,
-Netlify, GitHub Pages ou tout hébergeur de fichiers statiques. Pensez à
-mettre à jour le domaine `https://promptstudio.app/` dans les balises
-`canonical`, Open Graph et dans `sitemap.xml` si le domaine final diffère.
+Netlify, GitHub Pages ou tout hébergeur de fichiers statiques. Le domaine
+canonique est `https://www.prompt-studio.app/` (balises `canonical`, Open
+Graph et `sitemap.xml`) — à mettre à jour partout si le domaine final change.
