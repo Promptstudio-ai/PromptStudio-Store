@@ -182,4 +182,25 @@ h1,h2,h3,h4{
     position:static;width:180px;margin:16px auto 0;transform:rotate(-2deg);
   }
   .card-blue h3,.card-blue p,.card-yellow h3,.card-yellow p{max-width:none}
+
+  .about-dialog{
+    position:fixed;
+    left:0;right:0;bottom:0;top:auto;
+    margin:0;
+    width:100%;max-width:100%;
+    max-height:85vh;
+    border-radius:20px 20px 0 0;
+    border-bottom:none;
+    padding-top:30px;
+    box-shadow:0 -8px 20px rgba(20,21,26,.18);
+  }
+  .about-dialog::before{
+    content:'';
+    position:absolute;top:10px;left:50%;
+    width:40px;height:4px;
+    transform:translateX(-50%);
+    border-radius:999px;
+    background:var(--ink);
+    opacity:.25;
+  }
 }
