@@ -82,6 +82,7 @@ h1,h2,h3,h4{
   color:var(--muted);margin:18px 0 6px;
 }
 .about-dialog p{margin:0;font-size:.92rem;line-height:1.55}
+.about-dialog p+p{margin-top:12px}
 .dialog-footer{margin-top:22px;padding-top:16px;border-top:2px solid var(--ink)}
 .dialog-credit{font-size:.9rem;margin-bottom:10px}
 .dialog-tagline{font-style:italic;color:var(--muted);font-size:.84rem;margin-bottom:10px}
